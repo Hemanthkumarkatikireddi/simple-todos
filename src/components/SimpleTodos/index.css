@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.main-container {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: #ffc2a0;
+  align-items: center;
+}
+.content-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+  justify-content: left;
+  font-size: 10px;
+}
+@media screen and (min-width: 480px) {
+  .card-container {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .card-container {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    font-size: 20px;
+  }
+}
+.heading {
+  margin: 10px;
+  color: #ff8542;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 44px;
+  }
+}

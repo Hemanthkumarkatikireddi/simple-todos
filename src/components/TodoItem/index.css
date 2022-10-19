@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style-type: none;
+  font-family: Roboto;
+}
+
+.title {
+  display: flex;
+  margin-right: 10px;
+}
+.button {
+  text-align: left;
+  outline: none;
+  border: 1px solid #ff0b37;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ff0b37;
+  background-color: white;
+  font-weight: 500;
+  font-size: 10px;
+}
+@media screen and (min-width: 568px) {
+  .card-container {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
